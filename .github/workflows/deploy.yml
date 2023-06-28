@@ -17,7 +17,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          BRANCH: main # The branch the action should deploy to.
+          branch: main # The branch the action should deploy to.
           folder: docs-build # The folder that the build-storybook script generates files.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
-          target-folder: docs # The folder that we serve our Storybook files from
+          clean: true # Automatically remove deleted files from the deploy branch
+#          target-folder: docs # The folder that we serve our Storybook files from
