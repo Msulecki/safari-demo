@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import AsyncAudioPlayback from '.';
 
-
 const meta: Meta<typeof AsyncAudioPlayback> = { component: AsyncAudioPlayback };
 export default meta;
 
