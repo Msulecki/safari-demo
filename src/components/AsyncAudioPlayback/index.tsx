@@ -32,7 +32,7 @@ const AsyncAudioPlayback = () => {
     <div>
       <button onClick={onAsyncPlay}>Play async</button>
       <button onClick={onSyncPlay}>Play sync</button>
-      <audio ref={audioRef} src='/safari-demo/audio.mp3'></audio>
+      <audio ref={audioRef} src='/audio.mp3'></audio>
     </div>
   );
 };
